@@ -39,9 +39,19 @@
         <java.version>1.6</java.version>
         <android.version>4.1.1.4</android.version>
         <android.platform>16</android.platform>
-        <android-maven.version>3.2.0</android-maven.version>
-        <android-support.version>r99</android-support.version>
+        <android-maven.version>3.6.0</android-maven.version>
+        <android-support.version>r13</android-support.version>
+        <internal.repo.path>file:///var/lib/jenkins/jobs/mvn-repo/workspace/</internal.repo.path>
     </properties>
+    
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Internal Repository</name>
+            <url>${internal.repo.path}</url>
+        </repository>
+    </distributionManagement>
+  
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
