@@ -76,7 +76,6 @@
             <artifactId>support-v4</artifactId>
             <version>${android-support.version}</version>
             <scope>system</scope>
-            <systemPath>${basedir}/libs/android-support-v4.jar</systemPath>
         </dependency>
     </dependencies>
     <build>
