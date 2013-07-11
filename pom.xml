@@ -9,11 +9,11 @@
     <name>Holo ColorPicker</name>
     <description>A Holo themed colorpicker designed by Marie Schweiz and Nick Butcher.</description>
     <url>https://github.com/dereulenspiegel/HoloColorPicker</url>
-    <parent>
+    <!--<parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>7</version>
-    </parent>
+    </parent> -->
     <licenses>
         <license>
             <name>Apache License Version 2.0</name>
