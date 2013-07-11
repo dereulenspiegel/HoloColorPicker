@@ -44,6 +44,16 @@
         <internal.repo.path>file:///var/lib/jenkins/jobs/mvn-repo/workspace/</internal.repo.path>
     </properties>
     
+        <repository>
+            <id>github.repo</id>
+            <url>https://github.com/dereulenspiegel/mev-repo/raw/master</url>
+            <!-- use snapshot version -->
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+    </repository>
+    
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
