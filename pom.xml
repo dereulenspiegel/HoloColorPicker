@@ -2,12 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.larswerkman</groupId>
+    <groupId>de.akuz.android</groupId>
+    <version>0.0.1-SNAPSHOT</version>
     <artifactId>colorpicker</artifactId>
     <packaging>apklib</packaging>
     <name>Holo ColorPicker</name>
     <description>A Holo themed colorpicker designed by Marie Schweiz and Nick Butcher.</description>
-    <url>https://github.com/LarsWerkman/HoloColorPicker</url>
+    <url>https://github.com/dereulenspiegel/HoloColorPicker</url>
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
@@ -21,9 +22,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/LarsWerkman/HoloColorPicker</url>
-        <connection>scm:git:git://github.com/LarsWerkman/HoloColorPicker.git</connection>
-        <developerConnection>scm:git:git@github.com:LarsWerkman/HoloColorPicker.git</developerConnection>
+        <url>https://github.com/dereulenspiegel/HoloColorPicker</url>
+        <connection>scm:git:git://github.com/dereulenspiegel/HoloColorPicker.git</connection>
+        <developerConnection>scm:git:git@github.com:dereulenspiegel/HoloColorPicker.git</developerConnection>
     </scm>
     <developers>
         <developer>
